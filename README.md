@@ -7,7 +7,7 @@ The scorer outputs the **micro average**, which is defined to be: true positive/
 ### Running the Scorer 
 To run the scorer, you need the gold-standard file distributed as part of the CoNLL-YAGO dataset. Once the dataset is downloaded, the file can be found under` aida-yago2-dataset/AIDA-YAGO2-annotations.tsv`. 
 
-While CoNLL-YAGO dataset contains a blank line between every two adjacent files, the scorer assumes no such blank line in the system output. Also, the scorer only evaluates the correctness of index (0th column) and Wikipedia entity name (column 1). Therefore, only these two columns are required. The following example shows an expected output format: 
+While CoNLL-YAGO dataset contains a blank line between every two adjacent files, the scorer assumes no such blank line in the system output. Also, the scorer only evaluates the correctness of index (0th column) and Wikipedia entity name (1st column). Therefore, only these two columns are required. The following example shows an expected output format: 
 ```
 -DOCSTART- (1 topic)
 1	China 
