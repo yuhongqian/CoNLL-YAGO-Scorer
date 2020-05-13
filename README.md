@@ -1,6 +1,6 @@
 # CoNLL-YAGO-Scorer
 
-This is a scorer for the [CoNLL-YAGO](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/ambiverse-nlu/aida/ "CoNLL-YAGO") entity linking dataset. It is part of my entity linking research project, the code for which might be released later. 
+This is a simple python scorer for the [CoNLL-YAGO](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/ambiverse-nlu/aida/ "CoNLL-YAGO") entity linking dataset. It is part of my entity linking research project, the code for which might be released later. 
 
 The scorer outputs the **micro average**, which is defined to be: true positive/(true positive + negative positive) 
 
