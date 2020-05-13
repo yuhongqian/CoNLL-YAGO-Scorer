@@ -2,9 +2,7 @@
 
 This is a scorer for the [CoNLL-YAGO](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/ambiverse-nlu/aida/ "CoNLL-YAGO") entity linking dataset. 
 
-The scorer outputs the **micro average**, which is defined to be
-
-$$\frac{true \ positive}{true \ positive \ + \ negative \ positive}$$
+The scorer outputs the **micro average**, which is defined to be: true positive/(true positive + negative positive) 
 
 #### Running the Scorer 
 To run the scorer, you need the gold-standard file distributed as part of the CoNLL-YAGO dataset. Once the dataset is downloaded, the file can be found under` aida-yago2-dataset/AIDA-YAGO2-annotations.tsv`. 
