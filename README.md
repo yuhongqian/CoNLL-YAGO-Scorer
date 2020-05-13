@@ -28,3 +28,4 @@ python yagoScorer.py \
   --system_out="./output/system_output.tsv" \
   --report="./output/report.txt"
 ```
+`report.txt` will show all the incorrect system outputs and summarize your system performance with micro-average.
